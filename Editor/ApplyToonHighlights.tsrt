@@ -1,0 +1,9 @@
+void ApplyToonHighlights()
+{
+    //Calculating highlight ramp uvs based on offset
+    float newMin = max(_HighlightRampOffset, 0);
+    float newMax = max(_HighlightRampOffset + 1, 0);
+    float Duv = remap(clamp(NDF, 0, 2), 0, 2, newMin, newMax);	
+    //have to recheck the metallic thing in here in case of a specular workflow where there's no metallic value
+    NDF = UNITY_SAMPLE_TEX2D(_HighlightRamp, float2(Duv, Duv)).rgb * _HighlightRampColor.rgb * _HighlightIntensity * 10 * (1 - Metallic + (0.2 * Metallic));
+}

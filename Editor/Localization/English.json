@@ -1,0 +1,59 @@
+{
+    "Properties": [
+        {
+            "Name": "Toon Highlights",
+            "DisplayName": "Enable toon highlights",
+            "Tooltip": "Enable toon highlights"
+        },
+        {
+            "Name": "Highlight Ramp",
+            "DisplayName": "Highlight ramp",
+            "Tooltip": "Ramp used for the toon highlights"
+        },
+        {
+            "Name": "Highlight Ramp_GradientOpenEditor",
+            "DisplayName": "Open gradient editor",
+            "Tooltip": ""
+        },
+        {
+            "Name": "Highlight Ramp_GradientColorLabel",
+            "DisplayName": "Color",
+            "Tooltip": ""
+        },
+        {
+            "Name": "Highlight Ramp_GradientTimeLabel",
+            "DisplayName": "Time",
+            "Tooltip": ""
+        },
+        {
+            "Name": "Highlight Ramp_GradientRampSizeLabel",
+            "DisplayName": "Gradient width",
+            "Tooltip": ""
+        },
+        {
+            "Name": "Highlight Ramp_GradientBlendModeLabel",
+            "DisplayName": "Blend mode",
+            "Tooltip": ""
+        },
+        {
+            "Name": "Highlight Ramp_GradientSaveButton",
+            "DisplayName": "Save",
+            "Tooltip": "Save and apply gradient"
+        },
+        {
+            "Name": "Highlight Ramp_GradientCancelButton",
+            "DisplayName": "Cancel",
+            "Tooltip": "Cancel the operation and closes the gradient editor"
+        },
+        {
+            "Name": "Highlight Ramp Offset",
+            "DisplayName": "Highlight ramp offset",
+            "Tooltip": "Applies an offset that shifts the gradient texture"
+        },
+        {
+            "Name": "Highlight Ramp Intensity",
+            "DisplayName": "Highlight ramp intensity",
+            "Tooltip": "Intensity of the highlight"
+        }
+    ]
+}
