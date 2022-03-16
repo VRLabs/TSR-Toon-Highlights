@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: VRLabs.TSR.ToonHighlights
   Name: Toon Highlights
-  Version: 1.0
+  Version: master
   Author: VRLabs
   Description: Adds option for toon like highlights for specular
   EnableProperties:

@@ -1,0 +1,10 @@
+﻿package-name: TSR.Toon.Highlights
+visual-name: TSR Toon Highlights
+destination-folder: Assets/VRLabs/Toony Standard Rebuild Modules/TSR Toon Highlights
+extra-generated-meta:
+  - path: Assets/VRLabs
+    guid: 652a1ba5b00554143bc9a76307dbc4e8
+  - path: Assets/VRLabs/Toony Standard Rebuild Modules
+    guid: d3d02b5b274410849ba3e6c360e2f005
+  - path: Assets/VRLabs/Toony Standard Rebuild Modules/TSR Toon Highlights
+    guid: 7a0a01503dd034240a79a00d0912275e
